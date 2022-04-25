@@ -3,8 +3,14 @@ uuid = "d376b9a1-4e98-468c-b52c-169b3f44398a"
 authors = ["Adrian Salceanu <adrian.salceanu@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+Genie = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
+GenieDeploy = "d108a3e0-159a-438b-bbd8-7bf1a8b5a5d1"
+
 [compat]
-julia = "1"
+Genie = "5"
+GenieDeploy = "0.1"
+julia = "1.6"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
